@@ -149,7 +149,8 @@ if __name__ == "__main__":
 
                 print(transaction.txid)
 
-    #print(total_cost,total_weight)
+    #print(total_cost,total_weight) 
+    #Result for the given mempool file is Fee = 5997882 satoshi , Weight = 3999836
         
 
 
