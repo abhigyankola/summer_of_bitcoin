@@ -20,11 +20,11 @@ class MempoolTransaction():
 
         self.parents = parents.split(";")
 
-        self.chain_number = -1 # Here -1 implies that the transaaction is not involed in any chain
+        self.chain_number = -1 # Here -1 implies that the transaction is not involed in any chain
 
 def parse_mempool_csv():
 
-    """Parse the CSV file and return a list of MempoolTransactions."""
+    """Parse the CSV file and return a list of Mempool Transactions."""
 
     with open('mempool.csv') as f:
 
