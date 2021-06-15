@@ -71,8 +71,8 @@ if __name__ == "__main__":
 
     for transaction in transaction_list:
 
-        """To find the first transacction in the chain first we must find the last transaction in the chain
-        Using the last chain we can reach the genesis block by performing DFS"""
+        """To find the first transacction in the chain first we must find the last transaction in the chain.
+        Using the last transaction in the chain we can reach the first block by performing DFS"""
 
         if transaction.chain_number==-1 and is_last(transaction):
             
